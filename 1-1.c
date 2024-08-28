@@ -3,6 +3,7 @@ a. Mostrar el menor valor e indicar cuantas veces se repite
 b. Mostrar el mayor valor e indicar en que posición/posiciones se encuentra*/
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 #define N 20
 
