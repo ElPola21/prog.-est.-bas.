@@ -76,21 +76,6 @@ void CargarMat(int m[][C],int m2[][C],int filas,int col){
             }
         }
     }
-
-    printf("\n");
-    printf("\n");
-    for(j=0;j<col;j++){
-        printf("%6d",j+1);
-    }
-    printf("\n");
-    for(i=0;i<filas;i++){
-        for(j=0;j<col;j++){
-            if(j==0)
-            printf("%d",i+1);
-            printf("%5d",m[i][j]);
-        }
-        printf("\n");
-    }
 }
 
 int BuscarDato(int m[][C],int datoBuscado,int filas,int col){
