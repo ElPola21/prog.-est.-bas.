@@ -4,7 +4,7 @@ apellido) y mostrarlo*/
 
 #include <stdio.h>
 #include <string.h>
-#define TAM 40
+#define TAM 41
 
 int main(){
     char nombre[TAM],apellido[TAM],completo[TAM*2];
